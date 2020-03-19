@@ -1,0 +1,193 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 0;
+
+}
+
+.phone-image{
+    background-image: url(https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png);
+    position: relative;
+    top: 50px;
+    align-self: center;
+    margin-left: -35px;
+    margin-right: -15px;
+    height: 618px;
+    flex-basis: 454px;
+    background-position: 0 0;
+    background-size: 454px 618px;
+
+}
+
+.img{
+    margin: 99px 0 0 151px;
+    position: relative;
+}
+
+.logo{
+    background-repeat: no-repeat;
+    background-position: -98px 0;
+    height: 51px;
+    width: 175px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_576406ccc24b.png/576406ccc24b.png);
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+    margin: 22px auto 12px;
+}
+
+.text-format{
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 17px;
+    margin: 0 40px 10px;
+    color: #999;
+    text-align: center;
+}
+
+.aside-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;;
+    padding: 0;
+
+
+}
+
+.footer{
+    display: flex;
+    margin-right: 16px;
+    flex-grow: 1;
+    margin-bottom: 3px;
+    list-style: none;
+    padding: 0;
+
+}
+
+.wrap-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 8px;
+    flex: 0 0 auto;
+}
+
+.button-style{
+    border: 1px solid transparent;
+    background-color: #3897f0;
+    color: #ffffff;
+    border: 1px solid;
+    border-radius: 4px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 18px;
+    user-select: none;
+}
+
+.face{
+    background-repeat: no-repeat;
+    background-position: -320px -242px;
+    height: 16px;
+    width: 16px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_576406ccc24b.png/576406ccc24b.png);
+    top: 2px;
+    margin-right: 8px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+
+}
+
+.center{
+    text-align: center;
+    color: #999;
+    font-size: 13px;
+}
+
+.input-format{
+    margin: 4px 0;
+    padding: 10px 5px;
+    font-size: 12px;
+    border: 1px solid #999;
+    background-color: #fafafa;
+}
+
+.policy{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.wrap-footer {
+    padding: 0 20px;
+    align-items: stretch;
+    box-sizing: border-box;
+    display: flex;
+    order: 5;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+}
+
+.wrap-nav{
+    max-width: 1012px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 38px 0;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.navItem{
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-right: 16px;
+    color: #2d547e;
+}
+
+.copyRightInfo{
+    color: #999;
+}
